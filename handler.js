@@ -1,6 +1,6 @@
 const baileys = require('@adiwajshing/baileys')
 const { Brainly } = require("brainly-scraper-v2");
-const brain = new Brainly("id");
+const brain = new Brainly("us"); //Ganti Sesuai Negara Hosting lu
 var data;
 
 module.exports = index = async(client, msg) => {
